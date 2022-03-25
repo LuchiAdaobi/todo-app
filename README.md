@@ -1,0 +1,1 @@
+A simple todo app to get more practice with js fundamentals
