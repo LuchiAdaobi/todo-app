@@ -22,7 +22,7 @@ if (data) {
   id = LIST.length; // set the id to the last one in the list
   loadList(LIST); // load the list to the user interface
 } else {
-  // if data isn't empty
+  // if data is empty
   LIST = [];
   id = 0;
 }
@@ -70,7 +70,7 @@ function addToDo(toDo, id, done, trash) {
 }
 
 // Add item to list when user hits enter
-document.addEventListener('keyup', (e) => {
+input.addEventListener('keyup', (e) => {
   if (e.keyCode === 13) {
     const toDo = input.value;
 
